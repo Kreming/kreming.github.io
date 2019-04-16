@@ -1,0 +1,48 @@
+
+*
+{
+    box-sizing: border-box;
+}
+
+.generator
+{
+    border: 6px solid #262626;
+    background-color: #4c5b5c;
+    text-align: center;
+    width: 300px;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 2px;
+    user-select: none;
+    color: #ffffff;
+}
+
+.generator.unavailable
+{
+    background-color: #323c3d;
+}
+
+.generators-container
+{
+    display: flex;
+    width: 608px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.currency
+{
+    text-align: center;
+    margin: 40px;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.perSecond
+{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    color: #ffffff;
+}
