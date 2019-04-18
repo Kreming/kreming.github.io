@@ -29,7 +29,7 @@ function buyGenerator(i)
     money -= g.cost
     g.amount += 1
     g.bought += 1
-    if(g.amount % 10 == 0)
+    if(g.bought % 10 == 0)
     {
         g.mult *= 2
     }
